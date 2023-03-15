@@ -170,7 +170,7 @@ def back():
 
  
 
-Mrdevil="-SKD"
+Mrdevil="-AK"
 
 imt="-brand=="
 
