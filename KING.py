@@ -512,7 +512,7 @@ def name():
 
 	clear()
 
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [AK] OK Result Saved To : \033[1;92mARSHAD-OK.txt/%s\033[1;97m\n [AK] CP Result Saved To : \033[1;91mARSHAD-CP.txt/%s\033[1;97m\n [NOTE] \033[1;96mTurn On Airplane On/Of Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 
 	with tred(max_workers=30) as pool:
 
