@@ -92,7 +92,7 @@ logo= f'''
 \033[1;94m Notice : Use 100090/100089 For OK Idz :/
 \033[1;97m★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
 
-           \x1b[97m[\033[37;41m  FEEL THE POWER OF ARSHAD \033[0;m]
+          \x1b[97m[\033[37;41m  FEEL THE POWER OF ARSHAD \033[0;m]
 '''
 ####@-----Menu-----@####
 os.system("xdg-open https://www.facebook.com/profile.php?id=100051320852607&mibextid=ZbWKwL")
